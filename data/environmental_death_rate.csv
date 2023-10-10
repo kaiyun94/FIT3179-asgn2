@@ -1,0 +1,701 @@
+Country,Code,Continent region,Year,Environmental factor,Death rate
+Afghanistan,AFG,Asia,2019,Outdoor air pollution,24.23648775
+Afghanistan,AFG,Asia,2019,Unsafe water source,9.931294032
+Afghanistan,AFG,Asia,2019,Secondhand smoke,16.04998785
+Afghanistan,AFG,Asia,2019,Air pollution from solid fuels,74.57869642
+Albania,ALB,Europe,2019,Outdoor air pollution,54.51632354
+Albania,ALB,Europe,2019,Unsafe water source,0.140144791
+Albania,ALB,Europe,2019,Secondhand smoke,27.11801698
+Albania,ALB,Europe,2019,Air pollution from solid fuels,25.3662071
+Algeria,DZA,Africa,2019,Outdoor air pollution,52.05200433
+Algeria,DZA,Africa,2019,Unsafe water source,0.648630402
+Algeria,DZA,Africa,2019,Secondhand smoke,17.96027141
+Algeria,DZA,Africa,2019,Air pollution from solid fuels,0.154547316
+American Samoa,ASM,Oceania,2019,Outdoor air pollution,16.90581349
+American Samoa,ASM,Oceania,2019,Unsafe water source,4.226453372
+American Samoa,ASM,Oceania,2019,Secondhand smoke,31.69840029
+American Samoa,ASM,Oceania,2019,Air pollution from solid fuels,12.67936011
+Andorra,AND,Europe,2019,Outdoor air pollution,18.33828904
+Andorra,AND,Europe,2019,Unsafe water source,0
+Andorra,AND,Europe,2019,Secondhand smoke,10.47902231
+Andorra,AND,Europe,2019,Air pollution from solid fuels,0
+Angola,AGO,Africa,2019,Outdoor air pollution,17.6580106
+Angola,AGO,Africa,2019,Unsafe water source,34.44131142
+Angola,AGO,Africa,2019,Secondhand smoke,5.050444482
+Angola,AGO,Africa,2019,Air pollution from solid fuels,26.97073351
+Antigua and Barbuda,ATG,North America,2019,Outdoor air pollution,32.56727857
+Antigua and Barbuda,ATG,North America,2019,Unsafe water source,1.085575952
+Antigua and Barbuda,ATG,North America,2019,Secondhand smoke,8.684607619
+Antigua and Barbuda,ATG,North America,2019,Air pollution from solid fuels,0
+Argentina,ARG,South America,2019,Outdoor air pollution,29.19531828
+Argentina,ARG,South America,2019,Unsafe water source,0.700954669
+Argentina,ARG,South America,2019,Secondhand smoke,19.08821953
+Argentina,ARG,South America,2019,Air pollution from solid fuels,1.575479066
+Armenia,ARM,Asia,2019,Outdoor air pollution,114.9754556
+Armenia,ARM,Asia,2019,Unsafe water source,0.106360273
+Armenia,ARM,Asia,2019,Secondhand smoke,35.66614503
+Armenia,ARM,Asia,2019,Air pollution from solid fuels,2.76536711
+Australia,AUS,Oceania,2019,Outdoor air pollution,7.486123738
+Australia,AUS,Oceania,2019,Unsafe water source,0.157851845
+Australia,AUS,Oceania,2019,Secondhand smoke,6.24304046
+Australia,AUS,Oceania,2019,Air pollution from solid fuels,0.05130185
+Austria,AUT,Europe,2019,Outdoor air pollution,30.04531572
+Austria,AUT,Europe,2019,Unsafe water source,0.033784088
+Austria,AUT,Europe,2019,Secondhand smoke,13.58120343
+Austria,AUT,Europe,2019,Air pollution from solid fuels,0.101352264
+Azerbaijan,AZE,Asia,2019,Outdoor air pollution,79.84610969
+Azerbaijan,AZE,Asia,2019,Unsafe water source,0.598546549
+Azerbaijan,AZE,Asia,2019,Secondhand smoke,31.30398453
+Azerbaijan,AZE,Asia,2019,Air pollution from solid fuels,6.643866698
+Bahrain,BHR,Asia,2019,Outdoor air pollution,43.03340677
+Bahrain,BHR,Asia,2019,Unsafe water source,0.401555895
+Bahrain,BHR,Asia,2019,Secondhand smoke,9.905045416
+Bahrain,BHR,Asia,2019,Air pollution from solid fuels,0.133851965
+Bangladesh,BGD,Asia,2019,Outdoor air pollution,50.69714556
+Bangladesh,BGD,Asia,2019,Unsafe water source,17.01222977
+Bangladesh,BGD,Asia,2019,Secondhand smoke,14.90125844
+Bangladesh,BGD,Asia,2019,Air pollution from solid fuels,57.26870687
+Barbados,BRB,North America,2019,Outdoor air pollution,62.45984724
+Barbados,BRB,North America,2019,Unsafe water source,1.070740238
+Barbados,BRB,North America,2019,Secondhand smoke,10.35048897
+Barbados,BRB,North America,2019,Air pollution from solid fuels,0
+Belarus,BLR,Europe,2019,Outdoor air pollution,90.05539208
+Belarus,BLR,Europe,2019,Unsafe water source,0.042463936
+Belarus,BLR,Europe,2019,Secondhand smoke,25.84992099
+Belarus,BLR,Europe,2019,Air pollution from solid fuels,1.019134462
+Belgium,BEL,Europe,2019,Outdoor air pollution,33.13610085
+Belgium,BEL,Europe,2019,Unsafe water source,0.2437118
+Belgium,BEL,Europe,2019,Secondhand smoke,11.8374303
+Belgium,BEL,Europe,2019,Air pollution from solid fuels,0.052223957
+Belize,BLZ,North America,2019,Outdoor air pollution,24.41563114
+Belize,BLZ,North America,2019,Unsafe water source,2.313059793
+Belize,BLZ,North America,2019,Secondhand smoke,7.196186021
+Belize,BLZ,North America,2019,Air pollution from solid fuels,7.710199309
+Benin,BEN,Africa,2019,Outdoor air pollution,19.68195779
+Benin,BEN,Africa,2019,Unsafe water source,35.86526248
+Benin,BEN,Africa,2019,Secondhand smoke,5.337480078
+Benin,BEN,Africa,2019,Air pollution from solid fuels,80.4771577
+Bermuda,BMU,North America,2019,Outdoor air pollution,14.0820829
+Bermuda,BMU,North America,2019,Unsafe water source,0
+Bermuda,BMU,North America,2019,Secondhand smoke,12.51740702
+Bermuda,BMU,North America,2019,Air pollution from solid fuels,1.564675877
+Bhutan,BTN,Asia,2019,Outdoor air pollution,43.78084041
+Bhutan,BTN,Asia,2019,Unsafe water source,9.77250902
+Bhutan,BTN,Asia,2019,Secondhand smoke,8.860408178
+Bhutan,BTN,Asia,2019,Air pollution from solid fuels,45.86564233
+Bolivia,BOL,South America,2019,Outdoor air pollution,34.05699856
+Bolivia,BOL,South America,2019,Unsafe water source,3.727504953
+Bolivia,BOL,South America,2019,Secondhand smoke,4.924721806
+Bolivia,BOL,South America,2019,Air pollution from solid fuels,19.32528764
+Bosnia and Herzegovina,BIH,Europe,2019,Outdoor air pollution,110.3933067
+Bosnia and Herzegovina,BIH,Europe,2019,Unsafe water source,0.089266825
+Bosnia and Herzegovina,BIH,Europe,2019,Secondhand smoke,38.97984682
+Bosnia and Herzegovina,BIH,Europe,2019,Air pollution from solid fuels,34.15943829
+Botswana,BWA,Africa,2019,Outdoor air pollution,38.64460644
+Botswana,BWA,Africa,2019,Unsafe water source,15.92189789
+Botswana,BWA,Africa,2019,Secondhand smoke,17.08203618
+Botswana,BWA,Africa,2019,Air pollution from solid fuels,25.44303281
+Brazil,BRA,South America,2019,Outdoor air pollution,22.31389074
+Brazil,BRA,South America,2019,Unsafe water source,2.034630958
+Brazil,BRA,South America,2019,Secondhand smoke,13.12098516
+Brazil,BRA,South America,2019,Air pollution from solid fuels,6.618098749
+Bulgaria,BGR,Europe,2019,Outdoor air pollution,132.2579716
+Bulgaria,BGR,Europe,2019,Unsafe water source,0.129018182
+Bulgaria,BGR,Europe,2019,Secondhand smoke,43.33577369
+Bulgaria,BGR,Europe,2019,Air pollution from solid fuels,25.97566058
+Burkina Faso,BFA,Africa,2019,Outdoor air pollution,16.70036411
+Burkina Faso,BFA,Africa,2019,Unsafe water source,61.79946113
+Burkina Faso,BFA,Africa,2019,Secondhand smoke,7.923007837
+Burkina Faso,BFA,Africa,2019,Air pollution from solid fuels,115.9956985
+Burundi,BDI,Africa,2019,Outdoor air pollution,9.195914925
+Burundi,BDI,Africa,2019,Unsafe water source,68.18619336
+Burundi,BDI,Africa,2019,Secondhand smoke,3.18320132
+Burundi,BDI,Africa,2019,Air pollution from solid fuels,84.24535981
+Cambodia,KHM,Asia,2019,Outdoor air pollution,22.60030482
+Cambodia,KHM,Asia,2019,Unsafe water source,8.22446255
+Cambodia,KHM,Asia,2019,Secondhand smoke,20.81720678
+Cambodia,KHM,Asia,2019,Air pollution from solid fuels,86.58822763
+Cameroon,CMR,Africa,2019,Outdoor air pollution,40.65573409
+Cameroon,CMR,Africa,2019,Unsafe water source,58.68357726
+Cameroon,CMR,Africa,2019,Secondhand smoke,5.28268554
+Cameroon,CMR,Africa,2019,Air pollution from solid fuels,46.80723135
+Canada,CAN,North America,2019,Outdoor air pollution,11.68312845
+Canada,CAN,North America,2019,Unsafe water source,0.156909761
+Canada,CAN,North America,2019,Secondhand smoke,8.624717862
+Canada,CAN,North America,2019,Air pollution from solid fuels,0.0212759
+Central African Republic,CAF,Africa,2019,Outdoor air pollution,19.71465012
+Central African Republic,CAF,Africa,2019,Unsafe water source,141.4003045
+Central African Republic,CAF,Africa,2019,Secondhand smoke,7.524968691
+Central African Republic,CAF,Africa,2019,Air pollution from solid fuels,133.6257833
+Chad,TCD,Africa,2019,Outdoor air pollution,16.95307693
+Chad,TCD,Africa,2019,Unsafe water source,164.055434
+Chad,TCD,Africa,2019,Secondhand smoke,8.067283501
+Chad,TCD,Africa,2019,Air pollution from solid fuels,118.2250786
+Chile,CHL,South America,2019,Outdoor air pollution,31.17206164
+Chile,CHL,South America,2019,Unsafe water source,0.582998962
+Chile,CHL,South America,2019,Secondhand smoke,12.21146475
+Chile,CHL,South America,2019,Air pollution from solid fuels,1.733240159
+China,CHN,Asia,2019,Outdoor air pollution,107.7541742
+China,CHN,Asia,2019,Unsafe water source,0.232286387
+China,CHN,Asia,2019,Secondhand smoke,29.55464235
+China,CHN,Asia,2019,Air pollution from solid fuels,25.78798007
+Colombia,COL,South America,2019,Outdoor air pollution,26.51262749
+Colombia,COL,South America,2019,Unsafe water source,1.052056765
+Colombia,COL,South America,2019,Secondhand smoke,7.08544291
+Colombia,COL,South America,2019,Air pollution from solid fuels,4.889672919
+Comoros,COM,Africa,2019,Outdoor air pollution,12.01032635
+Comoros,COM,Africa,2019,Unsafe water source,28.57193427
+Comoros,COM,Africa,2019,Secondhand smoke,9.355412106
+Comoros,COM,Africa,2019,Air pollution from solid fuels,69.78631733
+Costa Rica,CRI,North America,2019,Outdoor air pollution,19.0381337
+Costa Rica,CRI,North America,2019,Unsafe water source,1.081712142
+Costa Rica,CRI,North America,2019,Secondhand smoke,6.332932903
+Costa Rica,CRI,North America,2019,Air pollution from solid fuels,2.045419323
+Cote d'Ivoire,CIV,Africa,2019,Outdoor air pollution,26.26632223
+Cote d'Ivoire,CIV,Africa,2019,Unsafe water source,23.76513196
+Cote d'Ivoire,CIV,Africa,2019,Secondhand smoke,8.995106272
+Cote d'Ivoire,CIV,Africa,2019,Air pollution from solid fuels,62.19320502
+Croatia,HRV,Europe,2019,Outdoor air pollution,79.7982315
+Croatia,HRV,Europe,2019,Unsafe water source,0.19678972
+Croatia,HRV,Europe,2019,Secondhand smoke,36.89807252
+Croatia,HRV,Europe,2019,Air pollution from solid fuels,4.157182837
+Cuba,CUB,North America,2019,Outdoor air pollution,52.65670716
+Cuba,CUB,North America,2019,Unsafe water source,1.758463622
+Cuba,CUB,North America,2019,Secondhand smoke,19.23706184
+Cuba,CUB,North America,2019,Air pollution from solid fuels,1.767300123
+Cyprus,CYP,Asia,2019,Outdoor air pollution,37.59655479
+Cyprus,CYP,Asia,2019,Unsafe water source,0.081377824
+Cyprus,CYP,Asia,2019,Secondhand smoke,13.02045187
+Cyprus,CYP,Asia,2019,Air pollution from solid fuels,0.081377824
+Czechia,CZE,Europe,2019,Outdoor air pollution,61.48875502
+Czechia,CZE,Europe,2019,Unsafe water source,0.534114452
+Czechia,CZE,Europe,2019,Secondhand smoke,22.39532528
+Czechia,CZE,Europe,2019,Air pollution from solid fuels,0.749634319
+Denmark,DNK,Europe,2019,Outdoor air pollution,25.36795575
+Denmark,DNK,Europe,2019,Unsafe water source,0.171986141
+Denmark,DNK,Europe,2019,Secondhand smoke,12.3486049
+Denmark,DNK,Europe,2019,Air pollution from solid fuels,0.034397228
+Djibouti,DJI,Africa,2019,Outdoor air pollution,42.83077932
+Djibouti,DJI,Africa,2019,Unsafe water source,24.58114291
+Djibouti,DJI,Africa,2019,Secondhand smoke,10.80080522
+Djibouti,DJI,Africa,2019,Air pollution from solid fuels,18.71518835
+Dominica,DMA,North America,2019,Outdoor air pollution,46.2003696
+Dominica,DMA,North America,2019,Unsafe water source,1.4000112
+Dominica,DMA,North America,2019,Secondhand smoke,11.2000896
+Dominica,DMA,North America,2019,Air pollution from solid fuels,5.6000448
+Dominican Republic,DOM,North America,2019,Outdoor air pollution,35.2144969
+Dominican Republic,DOM,North America,2019,Unsafe water source,4.135314094
+Dominican Republic,DOM,North America,2019,Secondhand smoke,9.180397288
+Dominican Republic,DOM,North America,2019,Air pollution from solid fuels,8.629022075
+Ecuador,ECU,South America,2019,Outdoor air pollution,24.76397824
+Ecuador,ECU,South America,2019,Unsafe water source,1.591352269
+Ecuador,ECU,South America,2019,Secondhand smoke,4.174416821
+Ecuador,ECU,South America,2019,Air pollution from solid fuels,2.744506087
+El Salvador,SLV,North America,2019,Outdoor air pollution,31.35241983
+El Salvador,SLV,North America,2019,Unsafe water source,3.518986685
+El Salvador,SLV,North America,2019,Secondhand smoke,5.955208236
+El Salvador,SLV,North America,2019,Air pollution from solid fuels,9.840424304
+Equatorial Guinea,GNQ,Africa,2019,Outdoor air pollution,25.94925665
+Equatorial Guinea,GNQ,Africa,2019,Unsafe water source,6.245850856
+Equatorial Guinea,GNQ,Africa,2019,Secondhand smoke,3.026340105
+Equatorial Guinea,GNQ,Africa,2019,Air pollution from solid fuels,5.40877806
+Eritrea,ERI,Africa,2019,Outdoor air pollution,40.69945907
+Eritrea,ERI,Africa,2019,Unsafe water source,103.4920936
+Eritrea,ERI,Africa,2019,Secondhand smoke,10.63216206
+Eritrea,ERI,Africa,2019,Air pollution from solid fuels,112.4951341
+Estonia,EST,Europe,2019,Outdoor air pollution,12.5857451
+Estonia,EST,Europe,2019,Unsafe water source,0.075363743
+Estonia,EST,Europe,2019,Secondhand smoke,15.37420359
+Estonia,EST,Europe,2019,Air pollution from solid fuels,3.014549724
+Eswatini,SWZ,Africa,2019,Outdoor air pollution,30.26642146
+Eswatini,SWZ,Africa,2019,Unsafe water source,33.85735282
+Eswatini,SWZ,Africa,2019,Secondhand smoke,7.438357816
+Eswatini,SWZ,Africa,2019,Air pollution from solid fuels,41.21021227
+Ethiopia,ETH,Africa,2019,Outdoor air pollution,8.462101065
+Ethiopia,ETH,Africa,2019,Unsafe water source,37.83190964
+Ethiopia,ETH,Africa,2019,Secondhand smoke,1.566763664
+Ethiopia,ETH,Africa,2019,Air pollution from solid fuels,59.43449611
+Fiji,FJI,Oceania,2019,Outdoor air pollution,36.03839014
+Fiji,FJI,Oceania,2019,Unsafe water source,7.403657189
+Fiji,FJI,Oceania,2019,Secondhand smoke,37.45379519
+Fiji,FJI,Oceania,2019,Air pollution from solid fuels,32.8809481
+Finland,FIN,Europe,2019,Outdoor air pollution,7.515929242
+Finland,FIN,Europe,2019,Unsafe water source,0.018110673
+Finland,FIN,Europe,2019,Secondhand smoke,7.280490495
+Finland,FIN,Europe,2019,Air pollution from solid fuels,0.036221346
+France,FRA,Europe,2019,Outdoor air pollution,21.33614262
+France,FRA,Europe,2019,Unsafe water source,0.130587046
+France,FRA,Europe,2019,Secondhand smoke,6.015907788
+France,FRA,Europe,2019,Air pollution from solid fuels,0.054905917
+Gabon,GAB,Africa,2019,Outdoor air pollution,36.91838495
+Gabon,GAB,Africa,2019,Unsafe water source,8.560784917
+Gabon,GAB,Africa,2019,Secondhand smoke,5.216728309
+Gabon,GAB,Africa,2019,Air pollution from solid fuels,3.07653208
+Georgia,GEO,Asia,2019,Outdoor air pollution,86.31346869
+Georgia,GEO,Asia,2019,Unsafe water source,0.188163899
+Georgia,GEO,Asia,2019,Secondhand smoke,42.41751903
+Georgia,GEO,Asia,2019,Air pollution from solid fuels,42.84760794
+Germany,DEU,Europe,2019,Outdoor air pollution,35.38326146
+Germany,DEU,Europe,2019,Unsafe water source,0.127567964
+Germany,DEU,Europe,2019,Secondhand smoke,9.702386106
+Germany,DEU,Europe,2019,Air pollution from solid fuels,0.036104141
+Ghana,GHA,Africa,2019,Outdoor air pollution,40.82507965
+Ghana,GHA,Africa,2019,Unsafe water source,17.76203442
+Ghana,GHA,Africa,2019,Secondhand smoke,3.908345491
+Ghana,GHA,Africa,2019,Air pollution from solid fuels,35.10214518
+Greece,GRC,Europe,2019,Outdoor air pollution,58.06978858
+Greece,GRC,Europe,2019,Unsafe water source,0.009326982
+Greece,GRC,Europe,2019,Secondhand smoke,24.39938434
+Greece,GRC,Europe,2019,Air pollution from solid fuels,0.382406253
+Greenland,GRL,North America,2019,Outdoor air pollution,12.44997777
+Greenland,GRL,North America,2019,Unsafe water source,0
+Greenland,GRL,North America,2019,Secondhand smoke,21.34281903
+Greenland,GRL,North America,2019,Air pollution from solid fuels,0
+Grenada,GRD,North America,2019,Outdoor air pollution,41.55666373
+Grenada,GRD,North America,2019,Unsafe water source,0.814836544
+Grenada,GRD,North America,2019,Secondhand smoke,8.963201982
+Grenada,GRD,North America,2019,Air pollution from solid fuels,1.629673088
+Guam,GUM,Oceania,2019,Outdoor air pollution,18.38409716
+Guam,GUM,Oceania,2019,Unsafe water source,2.372141569
+Guam,GUM,Oceania,2019,Secondhand smoke,24.90748648
+Guam,GUM,Oceania,2019,Air pollution from solid fuels,2.965176962
+Guatemala,GTM,North America,2019,Outdoor air pollution,22.81976672
+Guatemala,GTM,North America,2019,Unsafe water source,12.20788259
+Guatemala,GTM,North America,2019,Secondhand smoke,6.209337422
+Guatemala,GTM,North America,2019,Air pollution from solid fuels,31.89587875
+Guinea,GIN,Africa,2019,Outdoor air pollution,19.95722941
+Guinea,GIN,Africa,2019,Unsafe water source,43.19148247
+Guinea,GIN,Africa,2019,Secondhand smoke,9.303019777
+Guinea,GIN,Africa,2019,Air pollution from solid fuels,106.790591
+Guinea-Bissau,GNB,Africa,2019,Outdoor air pollution,18.72662027
+Guinea-Bissau,GNB,Africa,2019,Unsafe water source,53.4393798
+Guinea-Bissau,GNB,Africa,2019,Secondhand smoke,7.257199726
+Guinea-Bissau,GNB,Africa,2019,Air pollution from solid fuels,83.17867378
+Guyana,GUY,South America,2019,Outdoor air pollution,51.4552058
+Guyana,GUY,South America,2019,Unsafe water source,6.134562249
+Guyana,GUY,South America,2019,Secondhand smoke,14.64783231
+Guyana,GUY,South America,2019,Air pollution from solid fuels,6.885733137
+Haiti,HTI,North America,2019,Outdoor air pollution,17.14090433
+Haiti,HTI,North America,2019,Unsafe water source,31.37869679
+Haiti,HTI,North America,2019,Secondhand smoke,7.544506766
+Haiti,HTI,North America,2019,Air pollution from solid fuels,108.8756552
+Honduras,HND,North America,2019,Outdoor air pollution,18.89780415
+Honduras,HND,North America,2019,Unsafe water source,7.822204799
+Honduras,HND,North America,2019,Secondhand smoke,8.203775765
+Honduras,HND,North America,2019,Air pollution from solid fuels,38.91019717
+Hungary,HUN,Europe,2019,Outdoor air pollution,74.93495386
+Hungary,HUN,Europe,2019,Unsafe water source,0.60381894
+Hungary,HUN,Europe,2019,Secondhand smoke,36.84318955
+Hungary,HUN,Europe,2019,Air pollution from solid fuels,13.78549342
+Iceland,ISL,Europe,2019,Outdoor air pollution,5.269536808
+Iceland,ISL,Europe,2019,Unsafe water source,0
+Iceland,ISL,Europe,2019,Secondhand smoke,8.320321275
+Iceland,ISL,Europe,2019,Air pollution from solid fuels,0
+India,IND,Asia,2019,Outdoor air pollution,82.97729746
+India,IND,Asia,2019,Unsafe water source,36.74973405
+India,IND,Asia,2019,Secondhand smoke,17.35925878
+India,IND,Asia,2019,Air pollution from solid fuels,43.87858525
+Indonesia,IDN,Asia,2019,Outdoor air pollution,40.85088816
+Indonesia,IDN,Asia,2019,Unsafe water source,16.979565
+Indonesia,IDN,Asia,2019,Secondhand smoke,19.49493246
+Indonesia,IDN,Asia,2019,Air pollution from solid fuels,28.51330937
+Iraq,IRQ,Asia,2019,Outdoor air pollution,61.68149377
+Iraq,IRQ,Asia,2019,Unsafe water source,0.919075189
+Iraq,IRQ,Asia,2019,Secondhand smoke,15.96351801
+Iraq,IRQ,Asia,2019,Air pollution from solid fuels,0.153981183
+Ireland,IRL,Europe,2019,Outdoor air pollution,11.16664032
+Ireland,IRL,Europe,2019,Unsafe water source,0.020266135
+Ireland,IRL,Europe,2019,Secondhand smoke,8.815768674
+Ireland,IRL,Europe,2019,Air pollution from solid fuels,0.04053227
+Israel,ISR,Asia,2019,Outdoor air pollution,27.38016346
+Israel,ISR,Asia,2019,Unsafe water source,0.143582947
+Israel,ISR,Asia,2019,Secondhand smoke,5.986304396
+Israel,ISR,Asia,2019,Air pollution from solid fuels,0.044179368
+Italy,ITA,Europe,2019,Outdoor air pollution,47.13449383
+Italy,ITA,Europe,2019,Unsafe water source,0.078688637
+Italy,ITA,Europe,2019,Secondhand smoke,14.01997128
+Italy,ITA,Europe,2019,Air pollution from solid fuels,0.202581386
+Jamaica,JAM,North America,2019,Outdoor air pollution,34.2600487
+Jamaica,JAM,North America,2019,Unsafe water source,1.137263027
+Jamaica,JAM,North America,2019,Secondhand smoke,12.08341966
+Jamaica,JAM,North America,2019,Air pollution from solid fuels,7.072354451
+Japan,JPN,Asia,2019,Outdoor air pollution,33.75265531
+Japan,JPN,Asia,2019,Unsafe water source,0.428008497
+Japan,JPN,Asia,2019,Secondhand smoke,13.26352531
+Japan,JPN,Asia,2019,Air pollution from solid fuels,0.07501994
+Jordan,JOR,Asia,2019,Outdoor air pollution,29.39614156
+Jordan,JOR,Asia,2019,Unsafe water source,0.271061401
+Jordan,JOR,Asia,2019,Secondhand smoke,9.477802081
+Jordan,JOR,Asia,2019,Air pollution from solid fuels,0.01869389
+Kazakhstan,KAZ,Asia,2019,Outdoor air pollution,57.81672821
+Kazakhstan,KAZ,Asia,2019,Unsafe water source,0.156640986
+Kazakhstan,KAZ,Asia,2019,Secondhand smoke,19.20742578
+Kazakhstan,KAZ,Asia,2019,Air pollution from solid fuels,7.691612572
+Kenya,KEN,Africa,2019,Outdoor air pollution,11.26170109
+Kenya,KEN,Africa,2019,Unsafe water source,30.23466457
+Kenya,KEN,Africa,2019,Secondhand smoke,3.595579714
+Kenya,KEN,Africa,2019,Air pollution from solid fuels,43.39228815
+Kiribati,KIR,Oceania,2019,Outdoor air pollution,16.09774551
+Kiribati,KIR,Oceania,2019,Unsafe water source,27.36616737
+Kiribati,KIR,Oceania,2019,Secondhand smoke,41.85413833
+Kiribati,KIR,Oceania,2019,Air pollution from solid fuels,107.0500076
+Kuwait,KWT,Asia,2019,Outdoor air pollution,34.92378014
+Kuwait,KWT,Asia,2019,Unsafe water source,0.045033888
+Kuwait,KWT,Asia,2019,Secondhand smoke,8.038549008
+Kuwait,KWT,Asia,2019,Air pollution from solid fuels,0.022516944
+Latvia,LVA,Europe,2019,Outdoor air pollution,59.09640499
+Latvia,LVA,Europe,2019,Unsafe water source,0.052251463
+Latvia,LVA,Europe,2019,Secondhand smoke,25.9167258
+Latvia,LVA,Europe,2019,Air pollution from solid fuels,5.434152183
+Lebanon,LBN,Asia,2019,Outdoor air pollution,58.61387947
+Lebanon,LBN,Asia,2019,Unsafe water source,0.691813272
+Lebanon,LBN,Asia,2019,Secondhand smoke,23.38328859
+Lebanon,LBN,Asia,2019,Air pollution from solid fuels,0.172953318
+Lesotho,LSO,Africa,2019,Outdoor air pollution,39.71780589
+Lesotho,LSO,Africa,2019,Unsafe water source,54.72430721
+Lesotho,LSO,Africa,2019,Secondhand smoke,21.65608873
+Lesotho,LSO,Africa,2019,Air pollution from solid fuels,73.37010975
+Liberia,LBR,Africa,2019,Outdoor air pollution,13.47965986
+Liberia,LBR,Africa,2019,Unsafe water source,41.32157634
+Liberia,LBR,Africa,2019,Secondhand smoke,3.470210052
+Liberia,LBR,Africa,2019,Air pollution from solid fuels,54.44017388
+Libya,LBY,Africa,2019,Outdoor air pollution,52.67093393
+Libya,LBY,Africa,2019,Unsafe water source,0.563244091
+Libya,LBY,Africa,2019,Secondhand smoke,17.67368621
+Libya,LBY,Africa,2019,Air pollution from solid fuels,0.121782506
+Lithuania,LTU,Europe,2019,Outdoor air pollution,45.81020902
+Lithuania,LTU,Europe,2019,Unsafe water source,0.178946129
+Lithuania,LTU,Europe,2019,Secondhand smoke,20.61459406
+Lithuania,LTU,Europe,2019,Air pollution from solid fuels,2.183142774
+Luxembourg,LUX,Europe,2019,Outdoor air pollution,16.61287643
+Luxembourg,LUX,Europe,2019,Unsafe water source,0
+Luxembourg,LUX,Europe,2019,Secondhand smoke,8.064503122
+Luxembourg,LUX,Europe,2019,Air pollution from solid fuels,0
+Madagascar,MDG,Africa,2019,Outdoor air pollution,8.517010813
+Madagascar,MDG,Africa,2019,Unsafe water source,56.93866888
+Madagascar,MDG,Africa,2019,Secondhand smoke,5.291805866
+Madagascar,MDG,Africa,2019,Air pollution from solid fuels,77.93882091
+Malawi,MWI,Africa,2019,Outdoor air pollution,7.308927593
+Malawi,MWI,Africa,2019,Unsafe water source,34.30266815
+Malawi,MWI,Africa,2019,Secondhand smoke,3.688914869
+Malawi,MWI,Africa,2019,Air pollution from solid fuels,65.61074305
+Malaysia,MYS,Asia,2019,Outdoor air pollution,33.19105402
+Malaysia,MYS,Asia,2019,Unsafe water source,2.213143389
+Malaysia,MYS,Asia,2019,Secondhand smoke,18.18069859
+Malaysia,MYS,Asia,2019,Air pollution from solid fuels,0.338373163
+Maldives,MDV,Asia,2019,Outdoor air pollution,11.69456183
+Maldives,MDV,Asia,2019,Unsafe water source,1.783916211
+Maldives,MDV,Asia,2019,Secondhand smoke,9.11779397
+Maldives,MDV,Asia,2019,Air pollution from solid fuels,4.558896985
+Mali,MLI,Africa,2019,Outdoor air pollution,16.64768519
+Mali,MLI,Africa,2019,Unsafe water source,57.76610625
+Mali,MLI,Africa,2019,Secondhand smoke,6.004641126
+Mali,MLI,Africa,2019,Air pollution from solid fuels,109.7852604
+Malta,MLT,Europe,2019,Outdoor air pollution,32.33729184
+Malta,MLT,Europe,2019,Unsafe water source,0
+Malta,MLT,Europe,2019,Secondhand smoke,10.71296785
+Malta,MLT,Europe,2019,Air pollution from solid fuels,0
+Marshall Islands,MHL,Oceania,2019,Outdoor air pollution,26.82883205
+Marshall Islands,MHL,Oceania,2019,Unsafe water source,8.942944017
+Marshall Islands,MHL,Oceania,2019,Secondhand smoke,35.77177607
+Marshall Islands,MHL,Oceania,2019,Air pollution from solid fuels,53.6576641
+Mauritania,MRT,Africa,2019,Outdoor air pollution,32.57411466
+Mauritania,MRT,Africa,2019,Unsafe water source,29.17527497
+Mauritania,MRT,Africa,2019,Secondhand smoke,4.813121985
+Mauritania,MRT,Africa,2019,Air pollution from solid fuels,27.55569364
+Mauritius,MUS,Africa,2019,Outdoor air pollution,47.86786573
+Mauritius,MUS,Africa,2019,Unsafe water source,0.473939265
+Mauritius,MUS,Africa,2019,Secondhand smoke,31.04302184
+Mauritius,MUS,Africa,2019,Air pollution from solid fuels,1.105858284
+Mexico,MEX,North America,2019,Outdoor air pollution,31.06200056
+Mexico,MEX,North America,2019,Unsafe water source,1.91389379
+Mexico,MEX,North America,2019,Secondhand smoke,8.360693927
+Mexico,MEX,North America,2019,Air pollution from solid fuels,7.87782348
+Moldova,MDA,Europe,2019,Outdoor air pollution,80.36111078
+Moldova,MDA,Europe,2019,Unsafe water source,0.187671907
+Moldova,MDA,Europe,2019,Secondhand smoke,27.43763287
+Moldova,MDA,Europe,2019,Air pollution from solid fuels,10.58469558
+Monaco,MCO,Europe,2019,Outdoor air pollution,45.90376411
+Monaco,MCO,Europe,2019,Unsafe water source,0
+Monaco,MCO,Europe,2019,Secondhand smoke,18.90154993
+Monaco,MCO,Europe,2019,Air pollution from solid fuels,0
+Mongolia,MNG,Asia,2019,Outdoor air pollution,70.10205944
+Mongolia,MNG,Asia,2019,Unsafe water source,1.113713213
+Mongolia,MNG,Asia,2019,Secondhand smoke,16.45820636
+Mongolia,MNG,Asia,2019,Air pollution from solid fuels,31.21490643
+Montenegro,MNE,Europe,2019,Outdoor air pollution,91.79651077
+Montenegro,MNE,Europe,2019,Unsafe water source,0
+Montenegro,MNE,Europe,2019,Secondhand smoke,39.22653
+Montenegro,MNE,Europe,2019,Air pollution from solid fuels,27.00843049
+Morocco,MAR,Africa,2019,Outdoor air pollution,76.37640035
+Morocco,MAR,Africa,2019,Unsafe water source,2.641552508
+Morocco,MAR,Africa,2019,Secondhand smoke,18.22368237
+Morocco,MAR,Africa,2019,Air pollution from solid fuels,4.624782754
+Mozambique,MOZ,Africa,2019,Outdoor air pollution,6.458516004
+Mozambique,MOZ,Africa,2019,Unsafe water source,25.21991065
+Mozambique,MOZ,Africa,2019,Secondhand smoke,4.40143243
+Mozambique,MOZ,Africa,2019,Air pollution from solid fuels,82.60362724
+Myanmar,MMR,Asia,2019,Outdoor air pollution,49.29844549
+Myanmar,MMR,Asia,2019,Unsafe water source,10.44679082
+Myanmar,MMR,Asia,2019,Secondhand smoke,20.52593606
+Myanmar,MMR,Asia,2019,Air pollution from solid fuels,92.80317356
+Namibia,NAM,Africa,2019,Outdoor air pollution,33.80140306
+Namibia,NAM,Africa,2019,Unsafe water source,22.52064461
+Namibia,NAM,Africa,2019,Secondhand smoke,9.318887423
+Namibia,NAM,Africa,2019,Air pollution from solid fuels,31.67604278
+Nauru,NRU,Oceania,2019,Outdoor air pollution,8.242664029
+Nauru,NRU,Oceania,2019,Unsafe water source,0
+Nauru,NRU,Oceania,2019,Secondhand smoke,24.72799209
+Nauru,NRU,Oceania,2019,Air pollution from solid fuels,0
+Nepal,NPL,Asia,2019,Outdoor air pollution,83.1492355
+Nepal,NPL,Asia,2019,Unsafe water source,16.31839297
+Nepal,NPL,Asia,2019,Secondhand smoke,15.3854179
+Nepal,NPL,Asia,2019,Air pollution from solid fuels,74.9258753
+Netherlands,NLD,Europe,2019,Outdoor air pollution,28.81542985
+Netherlands,NLD,Europe,2019,Unsafe water source,0.057653921
+Netherlands,NLD,Europe,2019,Secondhand smoke,10.37194044
+Netherlands,NLD,Europe,2019,Air pollution from solid fuels,0.034592353
+New Zealand,NZL,Oceania,2019,Outdoor air pollution,6.687821337
+New Zealand,NZL,Oceania,2019,Unsafe water source,0.261086118
+New Zealand,NZL,Oceania,2019,Secondhand smoke,6.968991003
+New Zealand,NZL,Oceania,2019,Air pollution from solid fuels,0.060250643
+Nicaragua,NIC,North America,2019,Outdoor air pollution,15.51638344
+Nicaragua,NIC,North America,2019,Unsafe water source,2.040839601
+Nicaragua,NIC,North America,2019,Secondhand smoke,7.262987993
+Nicaragua,NIC,North America,2019,Air pollution from solid fuels,26.03571109
+Niger,NER,Africa,2019,Outdoor air pollution,13.3427785
+Niger,NER,Africa,2019,Unsafe water source,105.428425
+Niger,NER,Africa,2019,Secondhand smoke,6.095534038
+Niger,NER,Africa,2019,Air pollution from solid fuels,113.0681041
+Nigeria,NGA,Africa,2019,Outdoor air pollution,34.52014233
+Nigeria,NGA,Africa,2019,Unsafe water source,77.36769535
+Nigeria,NGA,Africa,2019,Secondhand smoke,4.87790501
+Nigeria,NGA,Africa,2019,Air pollution from solid fuels,63.08714517
+North Macedonia,MKD,Europe,2019,Outdoor air pollution,133.4332357
+North Macedonia,MKD,Europe,2019,Unsafe water source,0.096306919
+North Macedonia,MKD,Europe,2019,Secondhand smoke,42.85657877
+North Macedonia,MKD,Europe,2019,Air pollution from solid fuels,25.76210072
+Northern Mariana Islands,MNP,Oceania,2019,Outdoor air pollution,22.06265795
+Northern Mariana Islands,MNP,Oceania,2019,Unsafe water source,2.005696177
+Northern Mariana Islands,MNP,Oceania,2019,Secondhand smoke,24.06835413
+Northern Mariana Islands,MNP,Oceania,2019,Air pollution from solid fuels,10.02848089
+Norway,NOR,Europe,2019,Outdoor air pollution,8.489319912
+Norway,NOR,Europe,2019,Unsafe water source,0.14959154
+Norway,NOR,Europe,2019,Secondhand smoke,8.059244234
+Norway,NOR,Europe,2019,Air pollution from solid fuels,0.018698943
+Oman,OMN,Asia,2019,Outdoor air pollution,34.24026586
+Oman,OMN,Asia,2019,Unsafe water source,0.456247197
+Oman,OMN,Asia,2019,Secondhand smoke,6.62644739
+Oman,OMN,Asia,2019,Air pollution from solid fuels,0.130356342
+Pakistan,PAK,Asia,2019,Outdoor air pollution,55.94122671
+Pakistan,PAK,Asia,2019,Unsafe water source,29.31346613
+Pakistan,PAK,Asia,2019,Secondhand smoke,13.84681169
+Pakistan,PAK,Asia,2019,Air pollution from solid fuels,51.98992106
+Palau,PLW,Oceania,2019,Outdoor air pollution,27.90801518
+Palau,PLW,Oceania,2019,Unsafe water source,5.581603036
+Palau,PLW,Oceania,2019,Secondhand smoke,61.3976334
+Palau,PLW,Oceania,2019,Air pollution from solid fuels,0
+Panama,PAN,North America,2019,Outdoor air pollution,15.87702113
+Panama,PAN,North America,2019,Unsafe water source,2.622543669
+Panama,PAN,North America,2019,Secondhand smoke,4.678050869
+Panama,PAN,North America,2019,Air pollution from solid fuels,3.638484009
+Papua New Guinea,PNG,Oceania,2019,Outdoor air pollution,12.39718874
+Papua New Guinea,PNG,Oceania,2019,Unsafe water source,27.45615765
+Papua New Guinea,PNG,Oceania,2019,Secondhand smoke,27.04745912
+Papua New Guinea,PNG,Oceania,2019,Air pollution from solid fuels,117.0449713
+Paraguay,PRY,South America,2019,Outdoor air pollution,16.8299483
+Paraguay,PRY,South America,2019,Unsafe water source,1.715153967
+Paraguay,PRY,South America,2019,Secondhand smoke,10.55125967
+Paraguay,PRY,South America,2019,Air pollution from solid fuels,18.2847664
+Peru,PER,South America,2019,Outdoor air pollution,27.40910312
+Peru,PER,South America,2019,Unsafe water source,2.230017059
+Peru,PER,South America,2019,Secondhand smoke,3.6313939
+Peru,PER,South America,2019,Air pollution from solid fuels,7.430343726
+Philippines,PHL,Asia,2019,Outdoor air pollution,29.11556977
+Philippines,PHL,Asia,2019,Unsafe water source,6.028222081
+Philippines,PHL,Asia,2019,Secondhand smoke,19.63113079
+Philippines,PHL,Asia,2019,Air pollution from solid fuels,38.66161366
+Poland,POL,Europe,2019,Outdoor air pollution,74.87328948
+Poland,POL,Europe,2019,Unsafe water source,0.200181876
+Poland,POL,Europe,2019,Secondhand smoke,20.47649871
+Poland,POL,Europe,2019,Air pollution from solid fuels,7.396193515
+Portugal,PRT,Europe,2019,Outdoor air pollution,23.2445933
+Portugal,PRT,Europe,2019,Unsafe water source,0.233320886
+Portugal,PRT,Europe,2019,Secondhand smoke,17.21713707
+Portugal,PRT,Europe,2019,Air pollution from solid fuels,0.330537922
+Puerto Rico,PRI,North America,2019,Outdoor air pollution,13.58927937
+Puerto Rico,PRI,North America,2019,Unsafe water source,2.129195847
+Puerto Rico,PRI,North America,2019,Secondhand smoke,12.77517508
+Puerto Rico,PRI,North America,2019,Air pollution from solid fuels,0.031311704
+Qatar,QAT,Asia,2019,Outdoor air pollution,19.52098773
+Qatar,QAT,Asia,2019,Unsafe water source,0.071244481
+Qatar,QAT,Asia,2019,Secondhand smoke,4.167802126
+Qatar,QAT,Asia,2019,Air pollution from solid fuels,0
+Romania,ROU,Europe,2019,Outdoor air pollution,76.0028264
+Romania,ROU,Europe,2019,Unsafe water source,0.19616297
+Romania,ROU,Europe,2019,Secondhand smoke,32.22751105
+Romania,ROU,Europe,2019,Air pollution from solid fuels,12.56475443
+Rwanda,RWA,Africa,2019,Outdoor air pollution,14.80324001
+Rwanda,RWA,Africa,2019,Unsafe water source,23.8020517
+Rwanda,RWA,Africa,2019,Secondhand smoke,4.324104318
+Rwanda,RWA,Africa,2019,Air pollution from solid fuels,58.18452441
+Samoa,WSM,Oceania,2019,Outdoor air pollution,19.82020245
+Samoa,WSM,Oceania,2019,Unsafe water source,3.303367075
+Samoa,WSM,Oceania,2019,Secondhand smoke,31.14603242
+Samoa,WSM,Oceania,2019,Air pollution from solid fuels,65.59543192
+San Marino,SMR,Europe,2019,Outdoor air pollution,20.48101118
+San Marino,SMR,Europe,2019,Unsafe water source,0
+San Marino,SMR,Europe,2019,Secondhand smoke,8.777576219
+San Marino,SMR,Europe,2019,Air pollution from solid fuels,0
+Sao Tome and Principe,STP,Africa,2019,Outdoor air pollution,25.62919678
+Sao Tome and Principe,STP,Africa,2019,Unsafe water source,4.193868564
+Sao Tome and Principe,STP,Africa,2019,Secondhand smoke,2.795912376
+Sao Tome and Principe,STP,Africa,2019,Air pollution from solid fuels,40.54072945
+Saudi Arabia,SAU,Asia,2019,Outdoor air pollution,50.53400248
+Saudi Arabia,SAU,Asia,2019,Unsafe water source,0.421465583
+Saudi Arabia,SAU,Asia,2019,Secondhand smoke,11.26792422
+Saudi Arabia,SAU,Asia,2019,Air pollution from solid fuels,0.103273024
+Senegal,SEN,Africa,2019,Outdoor air pollution,21.66769235
+Senegal,SEN,Africa,2019,Unsafe water source,33.42336852
+Senegal,SEN,Africa,2019,Secondhand smoke,9.455788439
+Senegal,SEN,Africa,2019,Air pollution from solid fuels,56.71598155
+Serbia,SRB,Europe,2019,Outdoor air pollution,154.3648271
+Serbia,SRB,Europe,2019,Unsafe water source,0.201577052
+Serbia,SRB,Europe,2019,Secondhand smoke,50.1062959
+Serbia,SRB,Europe,2019,Air pollution from solid fuels,28.35037259
+Seychelles,SYC,Africa,2019,Outdoor air pollution,35.85147247
+Seychelles,SYC,Africa,2019,Unsafe water source,4.09731114
+Seychelles,SYC,Africa,2019,Secondhand smoke,19.46222791
+Seychelles,SYC,Africa,2019,Air pollution from solid fuels,0
+Sierra Leone,SLE,Africa,2019,Outdoor air pollution,19.77176597
+Sierra Leone,SLE,Africa,2019,Unsafe water source,40.38858542
+Sierra Leone,SLE,Africa,2019,Secondhand smoke,10.33947787
+Sierra Leone,SLE,Africa,2019,Air pollution from solid fuels,97.09415934
+Singapore,SGP,Asia,2019,Outdoor air pollution,24.16031085
+Singapore,SGP,Asia,2019,Unsafe water source,0.087664408
+Singapore,SGP,Asia,2019,Secondhand smoke,5.189732955
+Singapore,SGP,Asia,2019,Air pollution from solid fuels,0.035065763
+Slovenia,SVN,Europe,2019,Outdoor air pollution,42.42512755
+Slovenia,SVN,Europe,2019,Unsafe water source,0.047883891
+Slovenia,SVN,Europe,2019,Secondhand smoke,16.47205855
+Slovenia,SVN,Europe,2019,Air pollution from solid fuels,2.968801251
+Solomon Islands,SLB,Oceania,2019,Outdoor air pollution,16.14831561
+Solomon Islands,SLB,Oceania,2019,Unsafe water source,27.11139227
+Solomon Islands,SLB,Oceania,2019,Secondhand smoke,40.29671419
+Solomon Islands,SLB,Oceania,2019,Air pollution from solid fuels,179.4092679
+Somalia,SOM,Africa,2019,Outdoor air pollution,5.324973563
+Somalia,SOM,Africa,2019,Unsafe water source,90.41191893
+Somalia,SOM,Africa,2019,Secondhand smoke,8.378542421
+Somalia,SOM,Africa,2019,Air pollution from solid fuels,172.4077516
+South Africa,ZAF,Africa,2019,Outdoor air pollution,43.69476125
+South Africa,ZAF,Africa,2019,Unsafe water source,16.36509202
+South Africa,ZAF,Africa,2019,Secondhand smoke,12.5621793
+South Africa,ZAF,Africa,2019,Air pollution from solid fuels,7.901932711
+South Sudan,SSD,Africa,2019,Outdoor air pollution,13.79255424
+South Sudan,SSD,Africa,2019,Unsafe water source,57.40038014
+South Sudan,SSD,Africa,2019,Secondhand smoke,5.005902754
+South Sudan,SSD,Africa,2019,Air pollution from solid fuels,73.49009817
+Spain,ESP,Europe,2019,Outdoor air pollution,24.97940112
+Spain,ESP,Europe,2019,Unsafe water source,0.110321799
+Spain,ESP,Europe,2019,Secondhand smoke,12.00386033
+Spain,ESP,Europe,2019,Air pollution from solid fuels,0.377640003
+Sri Lanka,LKA,Asia,2019,Outdoor air pollution,34.57322387
+Sri Lanka,LKA,Asia,2019,Unsafe water source,3.430720543
+Sri Lanka,LKA,Asia,2019,Secondhand smoke,13.88341054
+Sri Lanka,LKA,Asia,2019,Air pollution from solid fuels,30.46828418
+Sudan,SDN,Africa,2019,Outdoor air pollution,39.3365179
+Sudan,SDN,Africa,2019,Unsafe water source,12.67576844
+Sudan,SDN,Africa,2019,Secondhand smoke,10.56622449
+Sudan,SDN,Africa,2019,Air pollution from solid fuels,26.16112063
+Suriname,SUR,South America,2019,Outdoor air pollution,43.47818844
+Suriname,SUR,South America,2019,Unsafe water source,4.830909827
+Suriname,SUR,South America,2019,Secondhand smoke,15.82539426
+Suriname,SUR,South America,2019,Air pollution from solid fuels,7.829405582
+Sweden,SWE,Europe,2019,Outdoor air pollution,7.364610585
+Sweden,SWE,Europe,2019,Unsafe water source,0.184844916
+Sweden,SWE,Europe,2019,Secondhand smoke,7.189494349
+Sweden,SWE,Europe,2019,Air pollution from solid fuels,0.029186039
+Switzerland,CHE,Europe,2019,Outdoor air pollution,18.90317284
+Switzerland,CHE,Europe,2019,Unsafe water source,0.058307134
+Switzerland,CHE,Europe,2019,Secondhand smoke,7.894785943
+Switzerland,CHE,Europe,2019,Air pollution from solid fuels,0.011661427
+Tajikistan,TJK,Asia,2019,Outdoor air pollution,52.37226549
+Tajikistan,TJK,Asia,2019,Unsafe water source,5.890541108
+Tajikistan,TJK,Asia,2019,Secondhand smoke,14.60854195
+Tajikistan,TJK,Asia,2019,Air pollution from solid fuels,27.92116485
+Tanzania,TZA,Africa,2019,Outdoor air pollution,10.73446327
+Tanzania,TZA,Africa,2019,Unsafe water source,22.05183111
+Tanzania,TZA,Africa,2019,Secondhand smoke,6.039492637
+Tanzania,TZA,Africa,2019,Air pollution from solid fuels,65.41391845
+Thailand,THA,Asia,2019,Outdoor air pollution,47.36090235
+Thailand,THA,Asia,2019,Unsafe water source,7.025883002
+Thailand,THA,Asia,2019,Secondhand smoke,13.23137847
+Thailand,THA,Asia,2019,Air pollution from solid fuels,10.44767033
+Togo,TGO,Africa,2019,Outdoor air pollution,20.61119284
+Togo,TGO,Africa,2019,Unsafe water source,61.11782784
+Togo,TGO,Africa,2019,Secondhand smoke,6.211259995
+Togo,TGO,Africa,2019,Air pollution from solid fuels,61.38471792
+Tonga,TON,Oceania,2019,Outdoor air pollution,20.00933769
+Tonga,TON,Oceania,2019,Unsafe water source,1.905651209
+Tonga,TON,Oceania,2019,Secondhand smoke,24.77346571
+Tonga,TON,Oceania,2019,Air pollution from solid fuels,29.53759373
+Trinidad and Tobago,TTO,North America,2019,Outdoor air pollution,58.62015652
+Trinidad and Tobago,TTO,North America,2019,Unsafe water source,1.118454165
+Trinidad and Tobago,TTO,North America,2019,Secondhand smoke,18.75055512
+Trinidad and Tobago,TTO,North America,2019,Air pollution from solid fuels,0.065791421
+Tunisia,TUN,Africa,2019,Outdoor air pollution,62.6840665
+Tunisia,TUN,Africa,2019,Unsafe water source,0.630741302
+Tunisia,TUN,Africa,2019,Secondhand smoke,19.95964252
+Tunisia,TUN,Africa,2019,Air pollution from solid fuels,0.174283781
+Turkmenistan,TKM,Asia,2019,Outdoor air pollution,58.58645562
+Turkmenistan,TKM,Asia,2019,Unsafe water source,0.763182764
+Turkmenistan,TKM,Asia,2019,Secondhand smoke,23.96718639
+Turkmenistan,TKM,Asia,2019,Air pollution from solid fuels,0.081189656
+Tuvalu,TUV,Oceania,2019,Outdoor air pollution,18.25483753
+Tuvalu,TUV,Oceania,2019,Unsafe water source,9.127418766
+Tuvalu,TUV,Oceania,2019,Secondhand smoke,45.63709383
+Tuvalu,TUV,Oceania,2019,Air pollution from solid fuels,18.25483753
+Uganda,UGA,Africa,2019,Outdoor air pollution,11.1946519
+Uganda,UGA,Africa,2019,Unsafe water source,21.41838661
+Uganda,UGA,Africa,2019,Secondhand smoke,2.849886424
+Uganda,UGA,Africa,2019,Air pollution from solid fuels,53.55411571
+Ukraine,UKR,Europe,2019,Outdoor air pollution,97.90880288
+Ukraine,UKR,Europe,2019,Unsafe water source,0.099129903
+Ukraine,UKR,Europe,2019,Secondhand smoke,36.22296775
+Ukraine,UKR,Europe,2019,Air pollution from solid fuels,6.146053989
+United Arab Emirates,ARE,Asia,2019,Outdoor air pollution,36.92061048
+United Arab Emirates,ARE,Asia,2019,Unsafe water source,0.282251065
+United Arab Emirates,ARE,Asia,2019,Secondhand smoke,10.17189416
+United Arab Emirates,ARE,Asia,2019,Air pollution from solid fuels,0
+United Kingdom,GBR,Europe,2019,Outdoor air pollution,22.51769461
+United Kingdom,GBR,Europe,2019,Unsafe water source,0.059847693
+United Kingdom,GBR,Europe,2019,Secondhand smoke,12.38398394
+United Kingdom,GBR,Europe,2019,Air pollution from solid fuels,0.017954308
+United States,USA,North America,2019,Outdoor air pollution,18.44851481
+United States,USA,North America,2019,Unsafe water source,0.116346376
+United States,USA,North America,2019,Secondhand smoke,10.83757351
+United States,USA,North America,2019,Air pollution from solid fuels,0.04568575
+Uruguay,URY,South America,2019,Outdoor air pollution,22.4302293
+Uruguay,URY,South America,2019,Unsafe water source,1.662578765
+Uruguay,URY,South America,2019,Secondhand smoke,23.01359027
+Uruguay,URY,South America,2019,Air pollution from solid fuels,1.545906571
+Uzbekistan,UZB,Asia,2019,Outdoor air pollution,80.37736355
+Uzbekistan,UZB,Asia,2019,Unsafe water source,0.256102155
+Uzbekistan,UZB,Asia,2019,Secondhand smoke,18.09987091
+Uzbekistan,UZB,Asia,2019,Air pollution from solid fuels,9.422176958
+Vanuatu,VUT,Oceania,2019,Outdoor air pollution,18.06809372
+Vanuatu,VUT,Oceania,2019,Unsafe water source,18.39660451
+Vanuatu,VUT,Oceania,2019,Secondhand smoke,21.02469087
+Vanuatu,VUT,Oceania,2019,Air pollution from solid fuels,118.5923969
+Vietnam,VNM,Asia,2019,Outdoor air pollution,40.48583165
+Vietnam,VNM,Asia,2019,Unsafe water source,1.306162972
+Vietnam,VNM,Asia,2019,Secondhand smoke,19.92655501
+Vietnam,VNM,Asia,2019,Air pollution from solid fuels,34.71302983
+Zambia,ZMB,Africa,2019,Outdoor air pollution,16.5828123
+Zambia,ZMB,Africa,2019,Unsafe water source,32.1808841
+Zambia,ZMB,Africa,2019,Secondhand smoke,4.999870243
+Zambia,ZMB,Africa,2019,Air pollution from solid fuels,47.99657811
+Zimbabwe,ZWE,Africa,2019,Outdoor air pollution,17.45404376
+Zimbabwe,ZWE,Africa,2019,Unsafe water source,25.49071914
+Zimbabwe,ZWE,Africa,2019,Secondhand smoke,10.71990897
+Zimbabwe,ZWE,Africa,2019,Air pollution from solid fuels,65.25077032
