@@ -1,0 +1,314 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "An interactive bar chart for showing the top 10 of countries which has the highest death rate due to diet low in plant-based sources in 2019. Countries can be filtered by continent.",
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    },
+    "axis": {
+      "domain": false,
+      "grid": false,
+      "ticks": false,
+      "labelFont": "sans-serif",
+      "titleFont": "sans-serif",
+      "titleColor": "white",
+      "labelColor": "white",
+      "labelLimit": 80
+    },
+    "legend": {
+      "labelFont": "sans-serif",
+      "titleFont": "sans-serif",
+      "titleColor": "white",
+      "labelColor": "white"
+    },
+    "header": {
+      "labelFont": "sans-serif",
+      "titleFont": "sans-serif",
+      "titleColor": "white",
+      "labelColor": "white"
+    },
+    "mark": {
+      "font": "sans-serif"
+    },
+    "title": {
+      "font": "sans-serif",
+      "subtitleFont": "sans-serif",
+      "color": "white",
+      "anchor": "start",
+      "fontWeight": "bold",
+      "fontSize": {
+        "expr": "16"
+      },
+      "subtitlePadding": {
+        "expr": "10"
+      }
+    }
+  },
+  "padding": {
+    "left": 20,
+    "top": 20,
+    "bottom": 20
+  },
+  "width": 500,
+  "height": 400,
+  "background": "black",
+  "data": {
+    "url": "https://raw.githubusercontent.com/kaiyun94/FIT3179-Assignment-2/main/data/diet_low_in_plant_based_sources.csv"
+  },
+  "params": [
+    {
+      "name": "Continent_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "labels": [
+          "Overall",
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "name": "Select a Continent: "
+      }
+    },
+    {
+      "name": "Top_N",
+      "value": 3,
+      "bind": {
+        "input": "range",
+        "min": 3,
+        "max": 10,
+        "step": 1,
+        "name": "View the Top: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "Continent_selection == null || datum['Continent region'] == Continent_selection"
+    },
+    {
+      "filter": "datum['Average death rate'] != null"
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "mean",
+          "field": "Average death rate",
+          "as": "AverageDeathRate"
+        }
+      ]
+    },
+    {
+      "calculate": "(datum['Average death rate'] - datum.AverageDeathRate)",
+      "as": "score"
+    },
+    {
+      "window": [
+        {
+          "op": "rank",
+          "as": "rank"
+        }
+      ],
+      "sort": [
+        {
+          "field": "score",
+          "order": "descending"
+        }
+      ]
+    },
+    {
+      "filter": "datum.rank <= Top_N"
+    }
+  ],
+  "layer": [
+    {
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "on": "mouseover"
+          }
+        }
+      ],
+      "mark": {
+        "type": "bar",
+        "height": {
+          "band": 0.9
+        }
+      },
+      "encoding": {
+        "y": {
+          "field": "Average death rate",
+          "type": "quantitative",
+          "title": "Average Death Rate due to Diet Low in Plant-based Source"
+        },
+        "x": {
+          "field": "Country",
+          "type": "nominal",
+          "sort": "-y",
+          "axis": {
+            "labelAngle": 0
+          }
+        },
+        "color": {
+          "field": "Continent region",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Africa",
+              "Asia",
+              "Europe",
+              "North America",
+              "Oceania",
+              "South America"
+            ],
+            "range": [
+              "#219ebc",
+              "#612f9e",
+              "#2450ff",
+              "#ffb703",
+              "#87581f",
+              "#b40404"
+            ]
+          },
+          "legend": {
+            "title": "Continent",
+            "orient": "right",
+            "offset": 0,
+            "labelOffset": 3,
+            "labelFontSize": 12,
+            "titleFontSize": 14,
+            "titlePadding": 5
+          }
+        },
+        "stroke": {
+          "condition": [
+            {
+              "param": "hover",
+              "empty": false,
+              "value": "white"
+            }
+          ],
+          "value": null
+        },
+        "strokeWidth": {
+          "condition": [
+            {
+              "param": "hover",
+              "empty": false,
+              "value": 2
+            }
+          ],
+          "value": 0.2
+        },
+        "opacity": {
+          "condition": [
+            {
+              "param": "hover",
+              "value": 1
+            }
+          ],
+          "value": 0.5
+        },
+        "tooltip": [
+          {
+            "field": "Country",
+            "type": "nominal",
+            "title": "Country"
+          },
+          {
+            "field": "Continent region",
+            "type": "nominal",
+            "title": "Continent"
+          },
+          {
+            "field": "Average death rate",
+            "type": "quantitative",
+            "format": ".2f",
+            "title": "Average Death Rate due to Diet Low in Plant-based Source"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "color": "red"
+      },
+      "encoding": {
+        "y": {
+          "aggregate": "average",
+          "field": "AverageDeathRate",
+          "type": "quantitative"
+        },
+        "strokeWidth": {
+          "value": 2
+        },
+        "tooltip": [
+          {
+            "field": "AverageDeathRate",
+            "type": "quantitative",
+            "format": ".2f",
+            "title": "Average Death Rate due to Diet Low in Plant-based Source"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "color": "red",
+        "text": "Average:",
+        "fontSize": {
+          "expr": "12"
+        },
+        "x": {
+          "expr": "540"
+        }
+      },
+      "encoding": {
+        "y": {
+          "aggregate": "average",
+          "field": "AverageDeathRate",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "color": "red",
+        "fontSize": {
+          "expr": "12"
+        },
+        "x": {
+          "expr": "580"
+        }
+      },
+      "encoding": {
+        "text": {
+          "field": "AverageDeathRate",
+          "type": "quantitative",
+          "format": ".2f"
+        },
+        "y": {
+          "aggregate": "average",
+          "field": "AverageDeathRate",
+          "type": "quantitative"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A waffle chart for displaying the proportion of death rate caused by smoking by continent in 2019.",
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    },
+    "axis": {
+      "domain": false,
+      "ticks": false,
+      "grid": false,
+      "labelFont": "sans-serif",
+      "titleFont": "sans-serif",
+      "titleColor": "white",
+      "labelColor": "white"
+    },
+    "legend": {
+      "labelFont": "sans-serif",
+      "titleFont": "sans-serif",
+      "titleColor": "white",
+      "labelColor": "white"
+    },
+    "header": {
+      "labelFont": "sans-serif",
+      "titleFont": "sans-serif",
+      "titleColor": "white",
+      "labelColor": "white"
+    },
+    "mark": {
+      "font": "sans-serif"
+    },
+    "title": {
+      "font": "sans-serif",
+      "subtitleFont": "sans-serif",
+      "color": "white",
+      "anchor": "start",
+      "fontWeight": "bold",
+      "fontSize": {
+        "expr": "16"
+      },
+      "subtitlePadding": {
+        "expr": "10"
+      }
+    }
+  },
+  "padding": {
+    "left": 20,
+    "top": 20,
+    "right": 20,
+    "bottom": 20
+  },
+  "width": 500,
+  "height": 400,
+  "background": "black",
+  "data": {
+    "url": "https://raw.githubusercontent.com/kaiyun94/FIT3179-Assignment-2/main/data/lifestyle_death_rate.csv"
+  },
+  "params": [
+    {
+      "name": "hover",
+      "select": {
+        "type": "point",
+        "on": "mouseover"
+      }
+    },
+    {
+      "name": "Behaviour",
+      "value": "Smoking",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Smoking",
+          "Drug use",
+          "Alcohol use"
+        ],
+        "name": "Select a Behaviour: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "calculate": "datum[Behaviour]/datum.Population * 100000",
+      "as": "DeathRate_per100kPeople"
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "sum",
+          "field": "DeathRate_per100kPeople",
+          "as": "TotalDeathRate"
+        }
+      ]
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "sum",
+          "field": "DeathRate_per100kPeople",
+          "as": "TotalDeathRatebyContinent"
+        }
+      ],
+      "groupby": [
+        "Continent region"
+      ]
+    },
+    {
+      "calculate": "Behaviour ==='Smoking' ?  round(datum.TotalDeathRatebyContinent / datum.TotalDeathRate * 100.15) : round(datum.TotalDeathRatebyContinent / datum.TotalDeathRate * 99.6)",
+      "as": "PercentOfTotal"
+    },
+    {
+      "aggregate": [
+        {
+          "op": "min",
+          "field": "PercentOfTotal",
+          "as": "P"
+        }
+      ],
+      "groupby": [
+        "Continent region"
+      ]
+    },
+    {
+      "calculate": "datum.P/100",
+      "as": "P/100"
+    },
+    {
+      "calculate": "sequence(1,datum.P+1)",
+      "as": "S"
+    },
+    {
+      "flatten": [
+        "S"
+      ]
+    },
+    {
+      "window": [
+        {
+          "op": "row_number",
+          "as": "id"
+        }
+      ],
+      "sort": [
+        {
+          "field": "Continent region",
+          "order": "descending"
+        }
+      ]
+    },
+    {
+      "calculate": "ceil (datum.id / 10)",
+      "as": "row"
+    },
+    {
+      "calculate": "datum.id - datum.row * 10",
+      "as": "col"
+    }
+  ],
+  "mark": {
+    "type": "square",
+    "filled": true,
+    "tooltip": true
+  },
+  "encoding": {
+    "x": {
+      "field": "col",
+      "type": "ordinal",
+      "axis": null
+    },
+    "y": {
+      "field": "row",
+      "type": "ordinal",
+      "axis": null,
+      "sort": "-y"
+    },
+    "color": {
+      "field": "Continent region",
+      "type": "nominal",
+      "scale": {
+        "range": [
+          "#219ebc",
+          "#612f9e",
+          "#2450ff",
+          "#ffb703",
+          "#87581f",
+          "#b40404"
+        ]
+      },
+      "legend": {
+        "title": "Continent",
+        "orient": "right",
+        "labelOffset": 3,
+        "labelFontSize": 12,
+        "titleFontSize": 14,
+        "titlePadding": 5
+      }
+    },
+    "stroke": {
+      "condition": [
+        {
+          "param": "hover",
+          "empty": false,
+          "value": "white"
+        }
+      ],
+      "value": "white"
+    },
+    "strokeWidth": {
+      "condition": [
+        {
+          "param": "hover",
+          "empty": false,
+          "value": 2
+        }
+      ],
+      "value": 0.2
+    },
+    "opacity": {
+      "condition": [
+        {
+          "param": "hover",
+          "value": 1
+        }
+      ],
+      "value": 0.5
+    },
+    "size": {
+      "value": 1000
+    },
+    "tooltip": [
+      {
+        "field": "Continent region",
+        "type": "nominal",
+        "title": "Continent"
+      },
+      {
+        "field": "P/100",
+        "type": "quantitative",
+        "title": "Percentage of Death Rate Caused by Smoking",
+        "format": ".0%"
+      }
+    ]
+  }
+}

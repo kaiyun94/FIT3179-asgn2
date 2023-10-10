@@ -1,0 +1,273 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "",
+    "config": {
+      "view": {
+        "stroke": "transparent"
+      },
+      "axis": {
+        "title": null,
+        "labelAngle": -90,
+        "domain": false,
+        "grid": false,
+        "ticks": false,
+        "labelFont": "sans-serif",
+        "titleFont": "sans-serif",
+        "titleColor": "white",
+        "labelColor": "white"
+      },
+      "legend": {
+        "labelFont": "sans-serif",
+        "titleFont": "sans-serif",
+        "titleColor": "white",
+        "labelColor": "white"
+      },
+      "header": {
+        "labelFont": "sans-serif",
+        "titleFont": "sans-serif",
+        "titleColor": "white",
+        "labelColor": "white"
+      },
+      "mark": {
+        "font": "sans-serif"
+      },
+      "title": {
+        "font": "sans-serif",
+        "subtitleFont": "sans-serif",
+        "color": "white",
+        "anchor": "start",
+        "fontWeight": "bold",
+        "fontSize": {
+          "expr": "16"
+        },
+        "subtitlePadding": {
+          "expr": "10"
+        }
+      },
+      "style": {
+        "label": {
+          "baseline": "middle",
+          "align": "right",
+          "dx": -5,
+          "color": "white"
+        },
+        "tick": {"orient": "horizontal"}
+      }
+    },
+    "background": "black",
+    "data": {
+      "url": "https://raw.githubusercontent.com/kaiyun94/FIT3179-Assignment-2/main/data/diet_low_in_plant_based_sources.csv"
+      
+    },
+    "width": 620,
+    "height": 400,
+    "padding": {
+      "left": 20,
+      "top": 20,
+      "bottom": 20
+    },
+    "params": [
+      {
+        "name": "Continent_selection",
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "North America",
+            "South America",
+            "Europe",
+            "Africa",
+            "Asia",
+            "Oceania"
+          ],
+          "labels": [
+            "Overall",
+            "North America",
+            "South America",
+            "Europe",
+            "Africa",
+            "Asia",
+            "Oceania"
+          ],
+          "name": "Select a Continent: "
+        }
+      }
+    ],
+    "transform": [
+      {
+        "filter": "Continent_selection == null || datum['Continent region'] == Continent_selection"
+      },
+      {
+        "calculate": "datum['Diet low in vegetables']/datum.Population * 100000",
+          "as": "Diet low in Vegetables"
+      },
+      {
+        "calculate": "datum['Diet low in fruits']/datum.Population * 100000",
+          "as": "Diet low in Fruits"
+      },
+      {
+        "calculate": "datum['Diet low in whole grains']/datum.Population * 100000",
+          "as": "Diet low in Whole Grains"
+      },
+      {
+        "calculate": "datum['Diet low in nuts and seeds']/datum.Population * 100000",
+          "as": "Diet low in Nuts and Seeds"
+      },
+      {"window": [{"op": "count", "as": "index"}]},
+      {
+        "fold": [
+          "Diet low in Vegetables",
+          "Diet low in Fruits",
+          "Diet low in Whole Grains",
+          "Diet low in Nuts and Seeds"
+        ]
+      },
+      {
+        "joinaggregate": [
+          {"op": "min", "field": "value", "as": "min"},
+          {"op": "max", "field": "value", "as": "max"}
+        ],
+        "groupby": ["key"]
+      },
+      {
+        "calculate": "(datum.value - datum.min) / (datum.max-datum.min)",
+        "as": "norm_val"
+      },
+      {"calculate": "(datum.max - datum.min) / 2", "as": "mid"}
+    ],
+    "layer": [
+      {
+        "mark": {"type": "rule", "color": "#ccc"},
+        "encoding": {"detail": {"aggregate": "count"}, "x": {"field": "key"}}
+      },
+      {
+        "mark": "line",
+        "params": [
+          {
+            "name": "hovered",
+            "select": {
+              "type": "point",
+              "fields": ["Continent region"],
+              "toggle": false,
+              "on": "mouseover"
+            }
+          },
+          {"name": "clicked", "select": {"type": "point", "fields": ["Continent region"]}}
+        ],
+        "encoding": {
+          "color": {
+            "type": "nominal",
+            "field": "Continent region",
+            "scale": {
+              "domain": [
+                "Africa",
+                "Asia",
+                "Europe",
+                "North America",
+                "Oceania",
+                "South America"
+              ],
+              "range": [
+                "#219ebc",
+                "#612f9e",
+                "#2450ff",
+                "#ffb703",
+                "#87581f",
+                "#b40404"
+              ]
+            },
+            "legend": {
+              "title": "Continent",
+              "orient": "right",
+              "offset": 0,
+              "labelOffset": 3,
+              "labelFontSize": 12,
+              "titleFontSize": 14,
+              "titlePadding": 5
+            }
+          },
+          "detail": {"type": "nominal", "field": "index"},
+          "opacity": {
+            "condition": {
+              "test": {
+                "or": [
+                  {"param": "hovered", "empty": true},
+                  {"param": "clicked", "empty": false}
+                ]
+              },
+              "value": 0.8
+            },
+            "value": 0
+          },
+          "x": {"type": "nominal", "field": "key"},
+          "y": {"type": "quantitative", "field": "norm_val", "axis": null},
+          "tooltip": [
+            {"type": "nominal", "field": "Continent region"},
+            {
+              "type": "quantitative",
+              "field": "Diet low in Fruits",
+              "format": ".2f"
+            },
+            {
+              "type": "quantitative",
+              "field": "Diet low in Whole Grains",
+              "format": ".2f"
+            },
+            {
+              "type": "quantitative",
+              "field": "Diet low in Vegetables",
+              "format": ".2f"
+            },
+            {
+              "type": "quantitative",
+              "field": "Diet low in Nuts and Seeds",
+              "format": ".2f"
+            }
+          ]
+        }
+      },
+      {
+        "encoding": {"x": {"type": "nominal", "field": "key"}, "y": {"value": 0}},
+        "layer": [
+          {
+            "mark": {"type": "text", "style": "label"},
+            "encoding": {
+              "text": {"aggregate": "max", "field": "max", "format": ".1f"}
+            }
+          },
+          {"mark": {"type": "tick", "style": "tick", "size": 8, "color": "#ccc"}}
+        ]
+      },
+      {
+        "encoding": {
+          "x": {"type": "nominal", "field": "key"},
+          "y": {"value": 150}
+        },
+        "layer": [
+          {
+            "mark": {"type": "text", "style": "label"},
+            "encoding": {
+              "text": {"aggregate": "min", "field": "mid", "format": ".1f"}
+            }
+          },
+          {"mark": {"type": "tick", "style": "tick", "size": 8, "color": "#ccc"}}
+        ]
+      },
+      {
+        "encoding": {
+          "x": {"type": "nominal", "field": "key"},
+          "y": {"value": 300}
+        },
+        "layer": [
+          {
+            "mark": {"type": "text", "style": "label"},
+            "encoding": {
+              "text": {"aggregate": "min", "field": "min", "format": ".1f"}
+            }
+          },
+          {"mark": {"type": "tick", "style": "tick", "size": 8, "color": "#ccc"}}
+        ]
+      }
+    ]
+    
+  }

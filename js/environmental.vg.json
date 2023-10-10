@@ -1,0 +1,188 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/kaiyun94/FIT3179-Assignment-2/main/data/environmental_death_rate.csv"
+  },
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    },
+    "axis": {
+      "domain": false,
+      "grid": false,
+      "labelFont": "sans-serif",
+      "titleFont": "Sans-serif",
+      "titleColor": "white",
+      "labelColor": "white"
+    },
+    "legend": {
+      "labelFont": "sans-serif",
+      "titleFont": "sans-serif",
+      "titleColor": "white",
+      "labelColor": "white"
+    },
+    "header": {
+      "labelFont": "sans-serif",
+      "titleFont": "sans-serif",
+      "titleColor": "white",
+      "labelColor": "white"
+    },
+    "mark": {
+      "font": "sans-serif"
+    },
+    "title": {
+      "font": "sans-serif",
+      "subtitleFont": "sans-serif",
+      "color": "white",
+      "anchor": "start",
+      "fontWeight": "bold",
+      "fontSize": {
+        "expr": "16"
+      },
+      "subtitlePadding": {
+        "expr": "10"
+      }
+    }
+  },
+  "background": "black",
+  "width": 500,
+  "height": 400,
+  "params": [
+    {
+      "name": "hover",
+      "select": {
+        "type": "point",
+        "on": "mouseover"
+      }
+    },
+    {
+      "name": "Continent_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "labels": [
+          "Overall",
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "name": "Select a Continent: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "Continent_selection == null || datum['Continent region'] == Continent_selection"
+    },
+    {
+      "aggregate": [
+        {
+          "op": "sum",
+          "field": "Death rate",
+          "as": "Total_Death_Rate"
+        }
+      ],
+      "groupby": [
+        "Environmental factor",
+        "Continent region"
+      ]
+    }
+  ],
+  "layer":[
+    {
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "Environmental factor",
+          "type": "ordinal",
+          "title": "Environmental Factor",
+          "sort": "-y"
+        },
+        "y": {
+          "field": "Total_Death_Rate",
+          "type": "quantitative",
+          "title": "Total Death Rate per 100,000 people",
+          "scale": {
+            "zero": true
+          }
+        },
+        "color": {
+          "field": "Continent region",
+          "type": "nominal",
+          "title": "Continent",
+          "scale": {
+            "range": [
+              "#219ebc",
+              "#612f9e",
+              "#2450ff",
+              "#ffb703",
+              "#87581f",
+              "#b40404"
+            ]
+          },
+          "legend": {
+            "title": "Continent",
+            "orient": "right",
+            "labelOffset": 3,
+            "labelFontSize": 12,
+            "titleFontSize": 14,
+            "titlePadding": 5
+          }
+        },
+        "opacity": {
+          "condition": {
+            "param": "hover",
+            "value": 1
+          },
+          "value": 0.2
+        },
+        "stroke": {
+          "condition": [
+            {
+              "param": "hover",
+              "empty": false,
+              "value": "white"
+            }
+          ],
+          "value": null
+        },
+        "strokeWidth": {
+          "condition": [
+            {
+              "param": "hover",
+              "empty": false,
+              "value": 2
+            }
+          ],
+          "value": 0.2
+        },
+        "tooltip": [
+          {
+            "field": "Continent region",
+            "title": "Continent"
+          },
+          {
+            "field": "Environmental factor",
+            "title": "Environmental Factor"
+          },
+          {
+            "field": "Total_Death_Rate",
+            "title": "Total death rate per 100,000 people",
+            "format": ".2f"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Data Visualisation 2</title>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+  <script type="text/javascript">async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#intro" class="active">Introduction</a>
+    <a href="#map">Overall</a>
+    <a href="#environmental">Environmental</a>
+    <a href="#nutritional">Nutritional</a>
+    <a href="#lifestyle">Lifestyle</a>
+    <a href="#summary">Summary</a>
+  </div>
+
+  <!-- Page Content -->
+  <div style="max-width:2000px;margin-top:0px">
+    <!-- Main Cover -->
+    <div class="cover" id="home">
+      <div class="image-container" style="margin-bottom: 0;">
+        <img src="components/cover_wide_1.jpg" style="width:100%; height: 650px" alt="WORLD DEATH RATE IN 2019">
+      </div>
+      <div class="overlay-text">
+        <h1 class="main-title">GLOBAL DEATH RATE IN 2019</h1>
+        <p class="alt-text">"Understanding the leading causes of death is vital for shaping public health decisions and saving lives.</p>
+      </div>  
+    </div>
+
+    <!-- Introduction -->
+    <div class="intro" id="intro">
+      <br>
+      <div>
+        <h2 class="title">INTRODUCTION</h2>
+      </div>
+      <div>
+        <p class="para-1">
+        </p>
+      </div>
+    </div>
+    <br>
+
+    <!-- Map -->
+    <div class="map" id="map">
+      <div class="viz-row-container">
+        <div class="pure-u-1-1">
+          <br>
+          <h2 class="title-emp"> HOW MANY PEOPLE <span class="emphasis">DIE</span> IN 2019?
+          </h2>
+          <p class="para-1">
+          </p>
+          <br>
+          <p class="para-1" style="font-style: italic;"></p>
+          <br>
+          <div>
+            <div id="choropleth_map"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+    
+    <!-- Enviromental vs Death Rate -->
+    <div class='environmental' id="environmental">
+      <br>
+      <div>
+        <h2 class="title">ENVIRONMENTAL FACTOR VS DEATH RATE IN 2019</h2>
+      </div>
+      <div class="viz-row-container">
+        <div class="pure-u-1-2 container">
+          <div id="stacked_bar_chart"></div>
+        </div>
+        <div class="pure-u-2-5">
+          <br>
+          <p style="text-indent: 25px">
+            From the environmental perspective, we find that the predominant cause of death is <em_high_l>outdoor air pollution</em_high_l>, accounting for approximately <em_high>6400 deaths</em_high> per 100,000 people in 2019, which is the highest cumulative death rate observed across all continents. On the other hand, <em_low_l>unsafe water sources</em_low_l> causes the lowest death rate, at
+            <em_low>2550 deaths</em_low> per 100,000 people, which is 2.5 times lower than that of outdoor air pollution. Air pollution from solid fuels and secondhand smoke also contribute to the total death rate, at approximately 4963 and 2684 per 100,000 people respectively.
+          </p>
+          <br>
+          <p style="font-style: italic;">NOTE: Select a continent from the dropdown menu to visualise each continent respectively!</p>
+        </div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+    <br>
+      
+    <!-- Nutritional Health vs Death Rate -->
+    <div class="nutritional-health" id="nutritional">
+      <br>
+      <div>
+        <h2 class="title">NUTRITIONAL HEALTH VS DEATH RATE IN 2019</h2>
+      </div>
+
+      <div class="viz-row-container">
+        <div class="pure-u-2-5">
+          <br>
+          <p style="text-indent: 25px">
+          </p>
+          <br>
+          <p style="text-indent: 25px;">
+          </p>
+          <br> 
+          <p style="text-indent: 25px;">
+            
+          </p>
+          <br>
+          <p style="font-style:italic;"></p>
+        </div>
+        <div class="pure-u-1-2 container">
+          <div id="bubble_plot"></div>
+        </div>
+      </div>
+      <!-- end pure grid group -->
+    </div>
+    <br><br><br><br>
+
+    <!-- Low Diet in Plant-based Source vs Death Rate -->
+    <div>
+      <h3 class="subtitle"></h3>
+    </div>
+    <div class="viz-row-container">
+      <div class="pure-u-1-2 container">
+        <div id="bar_chart"></div>
+      </div>
+      <div class="pure-u-2-5">
+        <br>
+        <p style="text-indent: 25px">
+          
+        </p>
+        <br>
+        <p style="text-indent: 25px;">
+          
+        </p>
+      </div>
+    </div>   
+    <!-- end pure grid group -->
+    <br><br><br><br>
+    
+    <!-- Subsection of low diet in plant based source -->
+    <div>
+      <h3 class="subtitle">WHAT PLANT-BASED DIETS ARE PEOPLE LACKING OF?</h3>
+    </div>
+    <div class="viz-row-container">
+      <div class="pure-u-2-5">
+        <br>
+        <p style="text-indent: 25px">
+          
+        </p>
+        <br>
+        <p style="text-indent: 25px">
+         
+        </p>
+      </div>
+
+      <div class="pure-u-1-2 container">
+        <div id="parallel_coor"></div>
+      </div>
+
+    </div>   
+    <!-- end pure grid group -->
+    <br>
+
+    <!-- Lifestyle vs Death Rate -->
+    <div class="lifestyle-health" id="lifestyle">
+      <br>
+      <div>
+        <h2 class="title">LIFESTYLE FACTOR VS DEATH RATE IN 2019</h2>
+      </div>
+      <div class="viz-row-container">
+        <div class="pure-u-1-2 container">
+          <div id="waffle_chart"></div>
+        </div>
+        <div class="pure-u-2-5">
+          <br>
+          <p style="text-indent: 25px">
+            
+          </p>
+          <br>
+          <p style="text-indent: 25px">
+            
+          </p>
+          <br>            
+          </p>
+        </div>
+      </div>
+      <!-- end pure grid group -->
+      <br>
+    </div>
+    <br>
+
+    <!-- Summary -->
+    <div class="summary" id="summary">
+      <br>
+      <div>
+        <h2 class="title">SUMMARY</h2>
+      </div>
+      <div>
+        <p class="para-1"> 
+        </p>
+      </div>
+    </div>
+    <br>
+
+    <!-- Footer -->
+    <div class='footer'>
+      <p class="p-footer">&copy; 2023 Kai Yun Ong</p>
+      <p class="p-footer">Created for FIT3179 Assignment 2 at Monash University Malaysia</p>
+      <p class="p-footer">Visualizations made with Vega-Lite</p>
+    </div>>
+
+  </div>
+
+  <!-- Import JS file -->
+  <script type="text/javascript">
+
+    // JavaScript code for sticky navigation bar
+    window.addEventListener("scroll", function() {
+      const navbar = document.querySelector(".navbar");
+      if (window.pageYOffset >= 100) { // Adjust the value based on when you want the navbar to become sticky
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    });
+
+    var specVis1 = "js/choropleth_map.vg.json";
+    var specVis2 = "js/environmental.vg.json";
+    var specVis3 = "js/nutritional_health.vg.json"
+    var specVis4 = "js/lowDiet_in_PlantBasedSource.vg.json"
+    var spevVis5 = "js/dietPractices.vg.json"
+    var spevVis6 = "js/lifestyle.vg.json"
+
+    vegaEmbed('#choropleth_map', specVis1, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#stacked_bar_chart', specVis2, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#bubble_plot', specVis3, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#bar_chart', specVis4, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#parallel_coor', spevVis5, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#waffle_chart', spevVis6, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+  </script>
+</body>
+
+</html>
